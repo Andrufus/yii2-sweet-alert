@@ -15,14 +15,14 @@ class AlertAsset extends AssetBundle
      * @var string the directory that contains the source asset files for this asset bundle.
      * A source asset file is a file that is part of your source code repository of your Web application.
      */
-    public $sourcePath = '@bower/sweetalert/dist';
+    public $sourcePath = '@bower/sweetalert2/dist';
 
     /**
      * @var array list of JavaScript files that this bundle contains. Each JavaScript file can be
      * specified in one of the following formats:
      */
     public $js = [
-        'sweetalert.min.js',
+        'sweetalert2.min.js',
     ];
 
     /**
@@ -30,7 +30,7 @@ class AlertAsset extends AssetBundle
      * in one of the three formats as explained in [[js]].
      */
     public $css = [
-        'sweetalert.css'
+        'sweetalert2.css'
     ];
 
 }
